@@ -2,5 +2,6 @@
 //Repeat Exercise 4, but this time store the famous person's name in a variable called famous_person.
 //Then compose your message and store it in a new variable called message.Print your message.
 let famous_person = "Bill Gates";
-let message = "Everyone needs a coach. It doesn't matter whether you're a basketball player, a tennis player, a gymnast or a bridge player.";
-console.log(`${famous_person} once said, "${message}"`);
+let quote = "Everyone needs a coach. It doesn't matter whether you're a basketball player, a tennis player, a gymnast or a bridge player.";
+let message = `${famous_person} once said, "${quote}"`;
+console.log(message);
