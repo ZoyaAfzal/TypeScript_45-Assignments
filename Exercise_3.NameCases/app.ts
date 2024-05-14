@@ -1,5 +1,11 @@
 //Store a person's name in a variable, and then print that person's name in lowercase,uppercase and titlecase.
-let personName: String ="Eric";
+let personName: String = "Zoya Afzal";
+
+//loweCase
 console.log(personName.toLowerCase());
+
+//UpperCase
 console.log(personName.toUpperCase());
-console.log(personName.split(""));
+
+//TitleCase
+console.log(personName.replace(/\b\w/g,c=>c.toUpperCase()));
