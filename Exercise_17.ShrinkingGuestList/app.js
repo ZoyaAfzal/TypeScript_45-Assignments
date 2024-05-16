@@ -6,10 +6,10 @@ console.log("i can invite only two guests for dinner because of the delay of my 
 //• Remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
 while (guestNames.length > 2) {
     let removeGuest = guestNames.pop();
-    console.log(`Sorry ${removeGuest}, you are not invited to a Dinner`);
+    console.log(`Sorry ${removeGuest}, you are not invited to a Dinner.`);
 }
 //• Print a message to each of the two people still on your list, letting them know they’re still invited.
-guestNames.map((item) => console.log(`Hey ${item}! you are still invited to a Dinner`));
+guestNames.map((item) => console.log(`Hey ${item}, you are still invited to a Dinner.`));
 //• Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 guestNames.pop();
 guestNames.pop();
